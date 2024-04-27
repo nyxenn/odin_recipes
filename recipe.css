@@ -1,0 +1,61 @@
+@import url('variables.css');
+
+.banner {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.stats {
+    display: flex;
+
+    width: 100%;
+}
+
+.stat {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.stat dt {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: var(--primary);
+}
+
+.stat dd {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.recipe-body {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.ingredients,
+.steps {
+    @media screen and (min-width: 1000px) {
+        flex: 1;
+    }
+
+    @media screen and (max-width: 999px) {
+        width: 100%;
+    }
+}
+
+.measurement {
+    color: var(--tertiary);
+}
+
+.action {
+    color: var(--primary);
+}
