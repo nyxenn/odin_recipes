@@ -1,6 +1,7 @@
 # The Odin Project - Recipes Project
 
-Project 1 of (https://www.theodinproject.com)[The Odin Project].
+Project 1 of [The Odin Project](https://www.theodinproject.com).
+
 A simple, static website consisting of a home page which links to the various available recipes.
 
 ## Possible extras
