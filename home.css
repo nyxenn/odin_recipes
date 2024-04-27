@@ -1,0 +1,22 @@
+@import url('variables.css');
+
+:root {
+    --odin: #e3b261;
+}
+
+.odin {
+    color: var(--odin);
+    text-decoration: none;
+}
+
+.odin:hover {
+    text-decoration: underline;
+}
+
+.recipes {
+    margin-top: 5vh;
+}
+
+.recipes-list li {
+    margin: 1vh 0;
+}

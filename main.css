@@ -1,0 +1,64 @@
+@import url('variables.css');
+
+body {
+    background-color: var(--bg-color);
+    color: var(--color);
+}
+
+.page {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    margin-top: 10vh;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.secondary {
+    color: var(--secondary);
+}
+
+.tertiary {
+    color: var(--tertiary);
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+.muted {
+    filter: brightness(0.7);
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: block;
+    width: 100%;
+}
